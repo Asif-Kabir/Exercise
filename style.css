@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.header{
+	display: flex;
+	margin: 40px 0;
+
+}
+
+.header h2{
+	width: 50%;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 5px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.navbar{
+text-align: center;
+
+}
+
+.navbar a{
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	margin: 0px 30px 0px 0px;
+}
+
+.navbar a:hover{
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.hire {
+	color: blue !important;
+	border: 1px solid blue;
+	padding: 5px 15px;
+	border-radius: 50px;
+}
+
+.hire:hover{
+	background-color: blue;
+	color: white !important;
+}
+
+/*header end, info section starts*/
+
+.info{
+	display: flex;
+	background-color: #fafafa;
+	margin: 20px 0;
+	padding: 20px 0 0 0;
+}
+
+.info img{
+	width: 40%;
+	height: 400px;
+}
+
+.info div{
+	width: 60%;
+	margin: ;
+	padding: 80px 0px 0px 80px;
+	font-family: 'Lato', sans-serif;
+}
+
+.info div h4{
+	font-weight: 400;
+	margin: 0 0 20px 0;
+}
+
+.info div h1{
+	font-size: 40px;
+	word-spacing: 20px;
+	margin: 0 0 20px 0;
+
+}
+
+.info div p{
+	font-size: 10px;
+	margin: 0 0 20px 0;
+}
+
+.info div a{
+	text-decoration: none;
+	font-size: 12px;
+	color: blue;
+	border: 1px solid blue;
+	border-radius: 50px;
+	border-color: blue;
+	padding: 5px 15px;
+}
+
+.info div a:hover{
+	color: white;
+	background-color: blue;
+}
+
+/* info ends, sevices starts*/
+
+.service{
+	text-align: center;
+	margin: 50px 50px;
+	padding: 50px 50px;
+	font-family: 'Lato', sans-serif;
+}
+
+.service h2{
+	letter-spacing: 5px;
+	text-shadow: 5px 5px  #cfcaca ;
+	margin-bottom: 30px;
+}
+
+.ser{
+
+}
+
+.web{
+	width: 33.33%;
+	float: left;
+
+}
+
+.web img{
+	width: 25px;
+	margin: 5px;
+}
+
+.web h5{
+	margin: 5px 0;
+}
+
+.web hr{
+	display: block;
+	position: absolute;
+	left: 18.5%;
+	width: 5%;
+	height: 2px;
+	background-color: blue;
+	margin: 10px;
+}
+
+.web p{
+	font-size: 12px;
+	margin: 25px 0;
+}
+
+.mobile{
+	width: 33.33%;
+	float: left;
+	overflow: hidden;
+	background-color: blue;
+	color: white;
+}
+
+.mobile img{
+	width: 25px;
+	margin: 5px;
+}
+
+.mobile h5{
+	margin: 5px 0;
+}
+
+.mobile hr{
+	display: block;
+	position: absolute;
+	left: 47%;
+	width: 5%;
+	height: 2px;
+	background-color: white; 
+	margin: 10px;
+}
+
+.mobile p{
+	font-size: 12px;
+	margin: 25px 0;
+}
+
+.brand{
+	width: 33.33%;
+	overflow: hidden;
+}
+
+.brand img{
+	width: 25px;
+	margin: 5px;
+}
+
+.brand h5{
+	margin: 5px 0;
+}
+
+.brand hr{
+	display: block;
+	position: absolute;
+	left: 75.5%;
+	width: 5%;
+	height: 2px;
+	background-color: blue;
+	margin: 10px;
+}
+
+.brand p{
+	font-size: 12px;
+	margin: 25px 0;
+}
+
+/*Service ends, Portfolio starts*/
+
+
+.portfolio{
+	text-align: center;
+	margin: 50px 50px;
+	padding: 50px 50px;
+	font-family: 'Lato', sans-serif;
+	background-color: #fafafa;
+}
+
+.portfolio h2{
+	letter-spacing: 5px;
+	text-shadow: 5px 5px  #cfcaca ;
+	margin-bottom: 30px;
+}
+
+.image img{
+	float: left;
+	overflow: hidden;
+	width: 33.33%;
+	margin: 0 20 px;
+	padding: 0 20 px;
+	height: 400px;
+}
+
+.img img{
+	float: left;
+	overflow: hidden;
+	width: 33.33%;
+	height: 400px;
+	margin: 0 px;
+}
